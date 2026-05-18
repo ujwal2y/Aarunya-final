@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+login_errors.log
+
+# PHP
+backend/config/db.php.local
+
+# Uploads (keep structure but ignore user uploads)
+uploads/profile_photos/*.png
+uploads/profile_photos/*.jpg
+uploads/profile_photos/*.jpeg
+uploads/doctor_photos/*.png
+uploads/doctor_photos/*.jpg
+uploads/doctor_photos/*.jpeg
+
+# Backup files
+*_backup.php
+*_old.php
+*.bak
+
+# Development files
+test_*.php
+debug_*.php
+
+# Documentation (development)
+docs/TASK_*.md
+docs/*_SUMMARY.md

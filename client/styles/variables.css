@@ -1,0 +1,127 @@
+/**
+ * Aarunya Healthcare - CSS Variables
+ * Medical Teal/Cyan Theme - Design System
+ */
+
+:root {
+    /* Primary Colors - Teal/Cyan Medical Theme */
+    --primary: #4db6ac;
+    --primary-dark: #00897b;
+    --primary-light: #80cbc4;
+    --primary-soft: #b2dfdb;
+    --text-teal: #00897b;
+    
+    /* Background Colors - Light Medical Theme */
+    --bg-light: #e0f2f1;
+    --bg-lighter: #f1f8f7;
+    --background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 50%, #80cbc4 100%);
+    --card-bg: rgba(255, 255, 255, 0.95);
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --hover-bg: rgba(77, 182, 172, 0.1);
+    
+    /* Text Colors */
+    --text-primary: #263238;
+    --text-secondary: #546e7a;
+    --text-muted: #78909c;
+    --text-light: #ffffff;
+    
+    /* Border Colors */
+    --border: rgba(77, 182, 172, 0.2);
+    --border-light: rgba(77, 182, 172, 0.15);
+    --border-medium: rgba(77, 182, 172, 0.3);
+    
+    /* Status Colors */
+    --success: #4caf50;
+    --warning: #ff9800;
+    --danger: #f44336;
+    --info: #2196f3;
+    
+    /* Gradients */
+    --gradient-bg: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 50%, #80cbc4 100%);
+    --gradient-primary: linear-gradient(135deg, #4db6ac 0%, #26a69a 100%);
+    --gradient-hover: linear-gradient(135deg, #80cbc4 0%, #4db6ac 100%);
+    --gradient-soft: linear-gradient(135deg, rgba(77, 182, 172, 0.2) 0%, rgba(38, 166, 154, 0.15) 100%);
+    --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
+    --gradient-dark: linear-gradient(135deg, #00897b 0%, #00695c 100%);
+    
+    /* Spacing - 8px System */
+    --spacing-1: 0.5rem;   /* 8px */
+    --spacing-2: 1rem;     /* 16px */
+    --spacing-3: 1.5rem;   /* 24px */
+    --spacing-4: 2rem;     /* 32px */
+    --spacing-5: 2.5rem;   /* 40px */
+    --spacing-6: 3rem;     /* 48px */
+    --spacing-8: 4rem;     /* 64px */
+    
+    /* Legacy spacing (for backward compatibility) */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    
+    /* Container Padding */
+    --container-padding-mobile: 1rem;      /* 16px */
+    --container-padding-tablet: 1.5rem;    /* 24px */
+    --container-padding-desktop: 2rem;     /* 32px */
+    --container-padding-wide: 2.5rem;      /* 40px */
+    
+    /* Max Widths */
+    --container-max-width: 1400px;
+    --content-max-width: 1200px;
+    --text-max-width: 65ch;
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;   /* 4px */
+    --radius-md: 0.5rem;    /* 8px */
+    --radius-lg: 0.75rem;   /* 12px */
+    --radius-xl: 1rem;      /* 16px */
+    --radius-2xl: 1.5rem;   /* 24px */
+    --radius-full: 9999px;
+    
+    /* Shadows - Medical Theme */
+    --shadow-sm: 0 2px 8px rgba(0, 77, 64, 0.08);
+    --shadow-md: 0 4px 16px rgba(0, 77, 64, 0.12);
+    --shadow-lg: 0 8px 32px rgba(0, 77, 64, 0.16);
+    --shadow-xl: 0 24px 64px rgba(0, 77, 64, 0.2);
+    --shadow-glow: 0 0 20px rgba(77, 182, 172, 0.3);
+    --accent-glow: 0 0 30px rgba(77, 182, 172, 0.4);
+    --hover-shadow: 0 8px 16px rgba(77, 182, 172, 0.25);
+    
+    /* Typography */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-size-xs: 0.75rem;    /* 12px */
+    --font-size-sm: 0.875rem;   /* 14px */
+    --font-size-base: 1rem;     /* 16px */
+    --font-size-lg: 1.125rem;   /* 18px */
+    --font-size-xl: 1.25rem;    /* 20px */
+    --font-size-2xl: 1.5rem;    /* 24px */
+    --font-size-3xl: 1.875rem;  /* 30px */
+    --font-size-4xl: 2.25rem;   /* 36px */
+    --font-size-5xl: 3rem;      /* 48px */
+    
+    /* Responsive Typography Scaling */
+    --font-scale-mobile: 0.9;
+    --font-scale-tablet: 1;
+    --font-scale-desktop: 1.1;
+    
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 200ms ease;
+    --transition-slow: 300ms ease;
+    
+    /* Z-index */
+    --z-dropdown: 1000;
+    --z-modal: 2000;
+    --z-tooltip: 3000;
+}
+
+/* Light medical theme (default) */
+body {
+    background: var(--gradient-bg);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    min-height: 100vh;
+}
+
